@@ -1,0 +1,75 @@
+:root {
+  --primary-color: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --secondary-color: peru;
+}
+body {
+  background: var(--primary-color);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  font-family: cursive;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  margin-top: 40px;
+}
+.primary-link {
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  border: 1px solid peru;
+  color: peru;
+}
+.secondary-link {
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+.homepage-link {
+  color: var(--secondary-color);
+  text-align: center;
+  display: block;
+}
+.about-paragraphs {
+  margin-top: 30px 0;
+}
+.about-paragraphs p {
+  margin: 10px;
+}
+.email-link {
+  text-align: center;
+  display: block;
+  color: var(--secondary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.email-link:hover {
+  text-decoration: underline;
+}
